@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Noto Serif';
+    src: url(../fonts/NotoSerifRegular.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 39px 150px;
+    background: #FBEDDA;
+}
+
+header .logo {
+    width: 131px;
+    height: 27px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-left: 345px;
+    margin-right: 107px;
+}
+
+.menu a {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #021112;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    font-weight: bold;
+}
+
+.menu a:first-child {
+    color: gray;
+}
+
+header button {
+    padding: 11px 25px;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #13A6BA;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+header button:active {
+    color: black;
+    background: white;
+}
